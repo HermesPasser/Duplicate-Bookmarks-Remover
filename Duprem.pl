@@ -71,7 +71,7 @@ if (scalar(@ARGV) > 0){
 		print "File saved as new_" . $file_name . "\n";
 		save_html(\@doc, "new_" . $file_name);
 	} else {
-		print "This file cannot be accessed or does exist"; 
+		print "This file cannot be accessed or does not exist"; 
 	}
 } else {
 	print "\nWrong number of arguments.\nFirst and Only Argument: <file_name.html>\n";
